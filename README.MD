@@ -1,12 +1,13 @@
 
 # Scala.js ES Module Example
 
-Scala.js has a great feature to export ES modules.
-The further simplifies the integration of Scala.js and Javascript.
+Scala.js has a great feature to export ES modules from Scala.js projects.
+This further simplifies the integration of Scala.js with Javascript.
 
-However the example project implemented in this repository does not work properly.
-It follows the instructions given at
+The Scala.js website describes the requried steps to export ES modules on this page:
 http://www.scala-js.org/doc/project/module.html
+
+Although the example project in this repository tries to follow the described steps, it generates an error when trying to import the emitted ES module via the `<script src="..." type="module"></script>` syntax.
 
 Running
 ```
